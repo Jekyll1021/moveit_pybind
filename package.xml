@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>moveit_pybind</name>
+  <version>0.0.1</version>
+  <description>pyrobot moveit package</description>
+
+  <maintainer email="pyrobot@todo.todo">PyRobot Team</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>pybind11_catkin</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>moveit_ros_warehouse</build_depend>
+  <build_depend>moveit_ros_manipulation</build_depend>
+  <build_depend>moveit_ros_move_group</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_eigen</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>rosconsole</build_depend>
+
+  <exec_depend>pybind11_catkin</exec_depend>
+  <exec_depend>moveit_msgs</exec_depend>
+  <exec_depend>moveit_ros_planning</exec_depend>
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+  <exec_depend>moveit_ros_warehouse</exec_depend>
+  <exec_depend>moveit_ros_manipulation</exec_depend>
+  <exec_depend>moveit_ros_move_group</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf2</exec_depend>
+  <exec_depend>tf2_eigen</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>rosconsole</exec_depend>
+
+  <export>
+
+  </export>
+</package>
